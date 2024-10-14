@@ -1,0 +1,1094 @@
+@prefix : <http://example.com#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vo: <http://purl.org/datenzee/view-ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Root a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_1426f15a883d4b15b68ce0c1addf522c ;
+    vo:dataComponentName "Root" ;
+    dct:created "2024-10-15T14:26:35.587601" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:Container_020b828610b84d588dae22e79df64c87 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_2c8cf8dcb89b4cef8c2359b05ce7b55b,
+        :Container_65c46488ea5846efa23c19abd0e5d305,
+        :Container_8c361355fc7e4f8b8223d97f44073bcf,
+        :Container_90c89cd1027a4f7aa72a88b704c84684,
+        :Container_cb6aeecb990d4f13909e553182afc35c,
+        :Container_eb033661555c43e1a37dd6e262a07ed7,
+        :DataComponentWrapper_2b7046f8447a45edb522b2b7971fd7c2,
+        :DataComponentWrapper_53459a8c3efa48f79461a04541249957 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_0309f314c22241708fda6b14fed321e9 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_8b8b4fa424ed48fbaf38ca25b635825a,
+        :Container_9def1241eb154514890edb204cc94c88,
+        :DataComponentWrapper_ed27d1f9ac0d4b32bf0452445c9d1a8e ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_086f933df5eb4c6db43261e5362fbecd a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_53324ed2782f460e8005d747901ec135 ;
+    vo:isBlock true ;
+    vo:order 5 .
+
+:Container_0ba2d2cd817f424c92c787ddd7de23e1 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_80a0c930d545431db3d9c5b171052d5f ;
+    vo:isBlock true ;
+    vo:order 3 .
+
+:Container_0e26d518f36e4072ba662c4ef257be7e a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_be375f375da8426eb5248bfe4e52bd91 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_108f1677850347cba0d4364ddfab32e4 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_a5e6eae80c234c9ca76a8c67321b26e4 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_1426f15a883d4b15b68ce0c1addf522c a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_175607374a3e48f9ac8e19050496e413,
+        :Container_58d8459d14bb4efc8a36294b0542dac2,
+        :Container_7ac673743725414080747e77fd3a5421,
+        :Container_87cce20ed8104057986163fbb758f0e8,
+        :Container_acb139783cf14e86958071494fd28495,
+        :Container_d21bd331c9b045ac8c7fd83f98edd5aa,
+        :DataComponentWrapper_031930397c2c45528dd813feb6a85b1e,
+        :DataComponentWrapper_408b74ae51f84e87a499132f361678e2,
+        :DataComponentWrapper_88b8bd688fb54f6b936df95a34649470,
+        :DataComponentWrapper_a95ec42e715b4072b664025015b21250,
+        :DataComponentWrapper_c871c44ac631479b8ecc239b4216d9a8,
+        :DataComponentWrapper_ec81cfbe45e2460db2d8fd2b22be4218 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_146c79e42cb1470d9f88f76362ddb956 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_49bcf0f72d9441b3862274fecb0b5d82,
+        :Container_50c025ef703c48e0ad478870de2adaa7,
+        :Container_8427d273bd024d06a4dd98849f9b2132,
+        :DataComponentWrapper_81c8d365a981442780d1c2b85e7b8669 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_175607374a3e48f9ac8e19050496e413 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_43a320c6c7164b96ba2a71cbd36c3a37 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_17930638ff7d467fbe41c131f2228c04 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_2dc2911164e947c6abde8a22126ad315 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_2228d2dd25f54c87b6fbd0ba8ef78ab3 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_108f1677850347cba0d4364ddfab32e4,
+        :Container_bfa2aa750f28429592135a7e19ce46db ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_24129eb11f804c609ce868857fe77d90 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_17930638ff7d467fbe41c131f2228c04,
+        :DataComponentWrapper_1d804bf8158847799a2dc97eb4f084f5,
+        :DataComponentWrapper_479743e849ae4ab9af445e023374e9dc ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_26b4cd165a2940bdbec3b55a4bbcfc85 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_9d7c643d695a422497aa34fe9d47d682 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_2c8cf8dcb89b4cef8c2359b05ce7b55b a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_a8894f691b7245d18cef5a9c917da44e ;
+    vo:isBlock true ;
+    vo:order 3 .
+
+:Container_3b5defcd0d094926bf623fccd0885632 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_918f62fbbf9646eba07ea32b0e6a3994 ;
+    vo:isBlock true ;
+    vo:order 2 .
+
+:Container_435f44157a6d43878e4db1616a77123b a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_9423edf20321406fad35637b8f25d6ba ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_46b4576463f04e619db8a7a15a9882d0 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_7a19f086a4614addbc796cfb60f7667f ;
+    vo:isBlock true ;
+    vo:order 5 .
+
+:Container_49bcf0f72d9441b3862274fecb0b5d82 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_3e7fd9a4adf34afdb81cef51298b13a6 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_4ea17e37450d4693a308638f53a7d6da a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_d36a974be27642d0be99e456e21c22d1 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_50c025ef703c48e0ad478870de2adaa7 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_bf8d67f74c394cc79b05868857a2828e ;
+    vo:isBlock true ;
+    vo:order 2 .
+
+:Container_52ec5129e2344a89a564a872eceb93cd a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_20f2392a5d114b79843457f9c822d550 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_54adfe47686a42dab33e812d9c3f7f69 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_633db3e4beb74248b5ad2477b117f6b3,
+        :Container_f8e475df55584ec28d9585f5d271c943 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_58d8459d14bb4efc8a36294b0542dac2 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_2f17379b56524285af9b8131ca5837ec ;
+    vo:isBlock true ;
+    vo:order 5 .
+
+:Container_5dd93e87590c4b6296b77ad60be63bd6 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_afb195dbbb8046f499f4c36f03348e4f ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_61d51d7f7a6546b2b45ff17517b05a45 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_7fd2b76718c143b48216bab0ae69653d,
+        :Container_a97a2eedddc24247a66813786d03b867 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_633db3e4beb74248b5ad2477b117f6b3 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_96f083745a8e462fa6792bd9c46d0966 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_65c46488ea5846efa23c19abd0e5d305 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_8f059e2273fb4a59b70c6cc24370dbe9 ;
+    vo:isBlock true ;
+    vo:order 5 .
+
+:Container_66ba0047262745808a4e343514567159 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_217a55fb95be4b8092db348be15da3ad ;
+    vo:isBlock true ;
+    vo:order 3 .
+
+:Container_66f62470ce0344bebeb79e90efc0dfbd a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_52ec5129e2344a89a564a872eceb93cd,
+        :Container_a0c64b27cace4fa7a499c15871d668dd ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_67970ba629774e2a959045477983ce7d a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :DataComponentWrapper_bd5108e79412400d81f05b7fa193af77 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_67abb76de85646f8a9efecba2cbe7b69 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_4b7329e81a654c128a7b065061dee987,
+        :Content_b5da8a33bdd44466a13ace43acaa8207 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_6eff4dfd459c44ba89608dfe9cfa641b a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_9eecd8fc709f4e37a7172e0f388626f6 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_76e1112ec9f248ee8fd555118d52a077 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_67abb76de85646f8a9efecba2cbe7b69,
+        :Container_9f16a662d33c4b058e4a74d84643625b ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_79c12743d203485e8c529f142b65edd9 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_53a7da33c2d3424b87db2270e8890a19 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_7ac673743725414080747e77fd3a5421 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_957584cc37b54de19084ba55b02bcc5b ;
+    vo:isBlock true ;
+    vo:order 2 .
+
+:Container_7dfeca72da3e457a8b61c8a8fa1d2053 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_7db2ce3f440449bf872b43c78ca43d9c ;
+    vo:isBlock true ;
+    vo:order 4 .
+
+:Container_7f28654211fb4b8086e6f51f24900c00 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_c316761d885246389f0b8867f8c2a5be ;
+    vo:isBlock true ;
+    vo:order 6 .
+
+:Container_7fd2b76718c143b48216bab0ae69653d a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_ab2c0e099c6e4bc8a533f09926440eb9 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_826decd889fe44a18807913a8d49e50f a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_a932633f210245b382415f574bdeab3b ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_841f809e298b473c8efcc7c9827faefa a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_435f44157a6d43878e4db1616a77123b,
+        :Container_f013d1e9d2ec4294a7b245f106f5de6d,
+        :DataComponentWrapper_92b901ac38e24733bb301c2d3be4d68c ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_8427d273bd024d06a4dd98849f9b2132 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_77c8fabc8b354a2c9a62abdb0957151e ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_87160f993260447d88b23218961a79a9 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_086f933df5eb4c6db43261e5362fbecd,
+        :Container_0ba2d2cd817f424c92c787ddd7de23e1,
+        :Container_26b4cd165a2940bdbec3b55a4bbcfc85,
+        :Container_3b5defcd0d094926bf623fccd0885632,
+        :Container_4ea17e37450d4693a308638f53a7d6da,
+        :Container_925b54585a08461b9969ce0132f2c912,
+        :Container_9b2c081c5d4e479bb5f9e505d57cf5a2,
+        :Container_c033507ca401463b823fafb7a9779a9f,
+        :Container_c07caf96f2204a48befbb2475abbd9d4 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_87cce20ed8104057986163fbb758f0e8 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_89e3a2dbb5f14e50a8b9c327f24b0d42 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_8b8b4fa424ed48fbaf38ca25b635825a a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_7abc902406b14fcda0943c278516d02a,
+        :Content_eb1a2506a9524498964b5714b872d4ea ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_8c361355fc7e4f8b8223d97f44073bcf a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_01d8bde0524e456ba3f18c1302ef67bf,
+        :Content_a9e2451cc5484bbf95affb4923a3db6c ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_90c89cd1027a4f7aa72a88b704c84684 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_d7920a8582c14616ae7565fe79c75b37 ;
+    vo:isBlock true ;
+    vo:order 4 .
+
+:Container_925b54585a08461b9969ce0132f2c912 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_ebba8ebd7c924f53a9b94ef6328766ef ;
+    vo:isBlock true ;
+    vo:order 4 .
+
+:Container_93bb0f155efc4ab5ba6e6c95eeb92e89 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_e60fdeb0c030491bbb51e3a7342e0773 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_94cea638263b49afb6ec5b7c78e953c1 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_0e26d518f36e4072ba662c4ef257be7e,
+        :Container_cd8bd2b6e0804560884240c096019556 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_9b2c081c5d4e479bb5f9e505d57cf5a2 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_49241eef46bd4dc49bf765db4de8ce7d ;
+    vo:isBlock true ;
+    vo:order 8 .
+
+:Container_9def1241eb154514890edb204cc94c88 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_36d6b3c5be3b40559269f83972c8f6f4,
+        :Content_aaa3a4a848a2469bbe3efe90fe33347c ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_9f16a662d33c4b058e4a74d84643625b a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_bdd4c309a1bf407d903072cc4af016cc ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_a0c64b27cace4fa7a499c15871d668dd a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_972877a9df5749c8a202d966fa63ed6d ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_a97a2eedddc24247a66813786d03b867 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_362be5e3ee654fb2b75e5f5defb02e86 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_acb139783cf14e86958071494fd28495 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_47298b6edc4047cf9ae6bd415113fcf2 ;
+    vo:isBlock true ;
+    vo:order 4 .
+
+:Container_af0caf22481d4bde8a34aaa061c1dbc4 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_5dd93e87590c4b6296b77ad60be63bd6,
+        :Container_6eff4dfd459c44ba89608dfe9cfa641b ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_b884cc2953724383aa8280b9b34b0ab6 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_4a559d7bb8d44ab387cea7058fbf4ff4 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_bf619e1178d74574b22ac6d0e249a4c4 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_46b4576463f04e619db8a7a15a9882d0,
+        :Container_66ba0047262745808a4e343514567159,
+        :Container_7dfeca72da3e457a8b61c8a8fa1d2053,
+        :Container_7f28654211fb4b8086e6f51f24900c00,
+        :Container_c1d58b1ca2cb4c74a198967350b0cc84,
+        :Container_e6e596b4b2db4aa9b1ab2407084d046c,
+        :Container_f0780e27ddfb4f0d8faa816cd72aadf8,
+        :DataComponentWrapper_62d69c61457344488121ca3a8a5455ca,
+        :DataComponentWrapper_726760dfdbcb405885bbe883c05ea195,
+        :DataComponentWrapper_914f86338d974f8a9000bf7f898e2f27,
+        :DataComponentWrapper_9eb1796a75c146dcb429372608672697 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_bfa2aa750f28429592135a7e19ce46db a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_0931317f6c6047a3bc2e8c326caa25eb ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_c033507ca401463b823fafb7a9779a9f a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_6d016f4b056442c39e6c28b95d7170c7 ;
+    vo:isBlock true ;
+    vo:order 6 .
+
+:Container_c07caf96f2204a48befbb2475abbd9d4 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_46c67a65dd6242bcbcf7717c86dedbdc ;
+    vo:isBlock true ;
+    vo:order 7 .
+
+:Container_c098d4654957494e8b1396a011ea905d a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_c11dbb4d498340aaadcb046617e6d4d5 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_c1d58b1ca2cb4c74a198967350b0cc84 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_ca38e81d156841a69f910aaf911f6785 ;
+    vo:isBlock true ;
+    vo:order 2 .
+
+:Container_cb6aeecb990d4f13909e553182afc35c a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_e76c42292d0b4ddc90702abf63dce1ba ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_cd8bd2b6e0804560884240c096019556 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_0f44c84b1b86490baf1f5deb0b7498fa ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_d21bd331c9b045ac8c7fd83f98edd5aa a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_84a0b639e41b417f94ef14d287805e7e ;
+    vo:isBlock true ;
+    vo:order 3 .
+
+:Container_e6e596b4b2db4aa9b1ab2407084d046c a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_02e2bc4a03fe402a98242dc611361ffe,
+        :Content_c298034ce28a4d49b13940ff992ccb67 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_e973fc037ba245c69adffdf87a7ab0b5 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_93bb0f155efc4ab5ba6e6c95eeb92e89,
+        :Container_c098d4654957494e8b1396a011ea905d ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_eb033661555c43e1a37dd6e262a07ed7 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_f35da7bd6e394b349c83ce7a0a6c1a3f ;
+    vo:isBlock true ;
+    vo:order 2 .
+
+:Container_edf0c1ecba9543e0a7abcb86cabe2380 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_79c12743d203485e8c529f142b65edd9 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_ee1b0f776d834cc4b1edcff7cf71e777 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Container_826decd889fe44a18807913a8d49e50f,
+        :Container_b884cc2953724383aa8280b9b34b0ab6 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_f013d1e9d2ec4294a7b245f106f5de6d a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_a8b436b8337d4551b23418fd68adc486 ;
+    vo:isBlock true ;
+    vo:order 0 .
+
+:Container_f0780e27ddfb4f0d8faa816cd72aadf8 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_616688a11bfe4048ad53532e0834a321 ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Container_f8e475df55584ec28d9585f5d271c943 a vo:Container,
+        owl:NamedIndividual ;
+    vo:contains :Content_71c9a968c636421c8256f620d985a74c ;
+    vo:isBlock true ;
+    vo:order 1 .
+
+:Content_01d8bde0524e456ba3f18c1302ef67bf a vo:Date,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#availableUntil> ;
+    vo:order 1 .
+
+:Content_02e2bc4a03fe402a98242dc611361ffe a vo:Date,
+        owl:NamedIndividual ;
+    vo:contentPredicate dct:issued ;
+    vo:order 1 .
+
+:Content_0931317f6c6047a3bc2e8c326caa25eb a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_0f44c84b1b86490baf1f5deb0b7498fa a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_20f2392a5d114b79843457f9c822d550 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#curencyCode> ;
+    vo:order 0 .
+
+:Content_217a55fb95be4b8092db348be15da3ad a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#datasetType> ;
+    vo:order 0 .
+
+:Content_2dc2911164e947c6abde8a22126ad315 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#fundingStatus> ;
+    vo:order 0 .
+
+:Content_2f17379b56524285af9b8131ca5837ec a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#ethicalIssueDescription> ;
+    vo:order 0 .
+
+:Content_362be5e3ee654fb2b75e5f5defb02e86 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_36d6b3c5be3b40559269f83972c8f6f4 a vo:Date,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#start> ;
+    vo:order 1 .
+
+:Content_3e7fd9a4adf34afdb81cef51298b13a6 a vo:Email,
+        owl:NamedIndividual ;
+    vo:contentPredicate foaf:mbox ;
+    vo:order 0 .
+
+:Content_43a320c6c7164b96ba2a71cbd36c3a37 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#ethicalIssuesExist> ;
+    vo:order 0 .
+
+:Content_46c67a65dd6242bcbcf7717c86dedbdc a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#backupFrequency> ;
+    vo:order 0 .
+
+:Content_47298b6edc4047cf9ae6bd415113fcf2 a vo:DateTime,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#created> ;
+    vo:order 0 .
+
+:Content_49241eef46bd4dc49bf765db4de8ce7d a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#backupType> ;
+    vo:order 0 .
+
+:Content_4a559d7bb8d44ab387cea7058fbf4ff4 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_4b7329e81a654c128a7b065061dee987 a vo:Date,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#startDate> ;
+    vo:order 1 .
+
+:Content_53324ed2782f460e8005d747901ec135 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#storageType> ;
+    vo:order 0 .
+
+:Content_53a7da33c2d3424b87db2270e8890a19 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate foaf:name ;
+    vo:order 0 .
+
+:Content_616688a11bfe4048ad53532e0834a321 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#dataQualityAssurance> ;
+    vo:order 0 .
+
+:Content_6d016f4b056442c39e6c28b95d7170c7 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#pidSystem> ;
+    vo:order 0 .
+
+:Content_71c9a968c636421c8256f620d985a74c a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_77c8fabc8b354a2c9a62abdb0957151e a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate foaf:name ;
+    vo:order 0 .
+
+:Content_7a19f086a4614addbc796cfb60f7667f a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#personalData> ;
+    vo:order 0 .
+
+:Content_7abc902406b14fcda0943c278516d02a a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentContent :TextContent_eba22ec1652b4ac2afb0b63f1a175c02 ;
+    vo:order 0 .
+
+:Content_7db2ce3f440449bf872b43c78ca43d9c a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#preservationStatement> ;
+    vo:order 0 .
+
+:Content_80a0c930d545431db3d9c5b171052d5f a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#availability> ;
+    vo:order 0 .
+
+:Content_84a0b639e41b417f94ef14d287805e7e a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#ethicalIssuesReport> ;
+    vo:order 0 .
+
+:Content_89e3a2dbb5f14e50a8b9c327f24b0d42 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#report> ;
+    vo:order 0 .
+
+:Content_8f059e2273fb4a59b70c6cc24370dbe9 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#dataAccess> ;
+    vo:order 0 .
+
+:Content_918f62fbbf9646eba07ea32b0e6a3994 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#supportVersioning> ;
+    vo:order 0 .
+
+:Content_9423edf20321406fad35637b8f25d6ba a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate foaf:name ;
+    vo:order 0 .
+
+:Content_957584cc37b54de19084ba55b02bcc5b a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#modified> ;
+    vo:order 0 .
+
+:Content_96f083745a8e462fa6792bd9c46d0966 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_972877a9df5749c8a202d966fa63ed6d a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#value> ;
+    vo:order 0 .
+
+:Content_9d7c643d695a422497aa34fe9d47d682 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#certifiedWith> ;
+    vo:order 0 .
+
+:Content_9eecd8fc709f4e37a7172e0f388626f6 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_a5e6eae80c234c9ca76a8c67321b26e4 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_a8894f691b7245d18cef5a9c917da44e a vo:URL,
+        owl:NamedIndividual ;
+    vo:contentPredicate dcat:downloadURL ;
+    vo:order 0 .
+
+:Content_a8b436b8337d4551b23418fd68adc486 a vo:Email,
+        owl:NamedIndividual ;
+    vo:contentPredicate foaf:mbox ;
+    vo:order 0 .
+
+:Content_a932633f210245b382415f574bdeab3b a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_a9e2451cc5484bbf95affb4923a3db6c a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentContent :TextContent_2de85843397d4386a06bdcbffb0b5880 ;
+    vo:order 0 .
+
+:Content_aaa3a4a848a2469bbe3efe90fe33347c a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentContent :TextContent_f3bb844bca78478f9b54fdef061bf74a ;
+    vo:order 0 .
+
+:Content_ab2c0e099c6e4bc8a533f09926440eb9 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_afb195dbbb8046f499f4c36f03348e4f a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_b5da8a33bdd44466a13ace43acaa8207 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentContent :TextContent_0378da8652404d7aa04d2e88577048fd ;
+    vo:order 0 .
+
+:Content_bdd4c309a1bf407d903072cc4af016cc a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#licenseRef> ;
+    vo:order 0 .
+
+:Content_be375f375da8426eb5248bfe4e52bd91 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_bf8d67f74c394cc79b05868857a2828e a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#role> ;
+    vo:order 0 .
+
+:Content_c11dbb4d498340aaadcb046617e6d4d5 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifierType> ;
+    vo:order 0 .
+
+:Content_c298034ce28a4d49b13940ff992ccb67 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentContent :TextContent_fb62a602af37454e966e18859ccbe51c ;
+    vo:order 0 .
+
+:Content_c316761d885246389f0b8867f8c2a5be a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate dcat:keyword ;
+    vo:order 0 .
+
+:Content_ca38e81d156841a69f910aaf911f6785 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#sensitiveData> ;
+    vo:order 0 .
+
+:Content_d36a974be27642d0be99e456e21c22d1 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#url> ;
+    vo:order 0 .
+
+:Content_d7920a8582c14616ae7565fe79c75b37 a vo:URL,
+        owl:NamedIndividual ;
+    vo:contentPredicate dcat:accessURL ;
+    vo:order 0 .
+
+:Content_e60fdeb0c030491bbb51e3a7342e0773 a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#identifier> ;
+    vo:order 0 .
+
+:Content_e76c42292d0b4ddc90702abf63dce1ba a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate dcat:byteSize ;
+    vo:order 0 .
+
+:Content_eb1a2506a9524498964b5714b872d4ea a vo:Date,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#end> ;
+    vo:order 1 .
+
+:Content_ebba8ebd7c924f53a9b94ef6328766ef a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate <https://w3id.org/dcso/ns/core#geoLocation> ;
+    vo:order 0 .
+
+:Content_f35da7bd6e394b349c83ce7a0a6c1a3f a vo:Content,
+        owl:NamedIndividual ;
+    vo:contentPredicate dct:format ;
+    vo:order 0 .
+
+:DataComponentWrapper_031930397c2c45528dd813feb6a85b1e a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_c6dd4c3ec5cf4f2a84fe4b2ad6dbbac8 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasDMPId> ;
+    vo:order 7 .
+
+:DataComponentWrapper_1d804bf8158847799a2dc97eb4f084f5 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_6941c71450794234a1693af45263ac89 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasFunderId> ;
+    vo:order 1 .
+
+:DataComponentWrapper_2b7046f8447a45edb522b2b7971fd7c2 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_6231f70639cf442ab0e4e2597159113c ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasLicense> ;
+    vo:order 7 .
+
+:DataComponentWrapper_408b74ae51f84e87a499132f361678e2 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_84f9b8f4d12b4a6f81b1f928f85c6078 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasContact> ;
+    vo:order 9 .
+
+:DataComponentWrapper_479743e849ae4ab9af445e023374e9dc a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_59ae5e9a7eda4789ad483bffbdf98337 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasGrantId> ;
+    vo:order 2 .
+
+:DataComponentWrapper_53459a8c3efa48f79461a04541249957 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_721bae3e6858423c9bcc79b339258f53 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasHost> ;
+    vo:order 6 .
+
+:DataComponentWrapper_62d69c61457344488121ca3a8a5455ca a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_739a4638c30f494b8f758efda0cc2f16 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasMetadata> ;
+    vo:order 7 .
+
+:DataComponentWrapper_726760dfdbcb405885bbe883c05ea195 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_d5ccf0164b3c477ca5190ce4a08c830f ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasTechnicalResource> ;
+    vo:order 9 .
+
+:DataComponentWrapper_81c8d365a981442780d1c2b85e7b8669 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_c5ec1c6b29384cf5bb88ea9cf8dad500 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasContributorId> ;
+    vo:order 3 .
+
+:DataComponentWrapper_88b8bd688fb54f6b936df95a34649470 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_20f24db4838a4c09828cb71f48e83e89 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasCost> ;
+    vo:order 10 .
+
+:DataComponentWrapper_914f86338d974f8a9000bf7f898e2f27 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_ec8b0abd4bc34cd3b0f3d35c1fc98b8e ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasDatasetId> ;
+    vo:order 10 .
+
+:DataComponentWrapper_92b901ac38e24733bb301c2d3be4d68c a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_fa928878116b48d2a3499e0c8262d3fb ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasContactId> ;
+    vo:order 2 .
+
+:DataComponentWrapper_9eb1796a75c146dcb429372608672697 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_cc49771474384af1b6f8676b17502e96 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasDistribution> ;
+    vo:order 8 .
+
+:DataComponentWrapper_a95ec42e715b4072b664025015b21250 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_e53938882bb2444e8baa504d171f78b7 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasDataset> ;
+    vo:order 11 .
+
+:DataComponentWrapper_bd5108e79412400d81f05b7fa193af77 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_d74c306cb271414786ccf954f8ab4214 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasMetadataStandardId> ;
+    vo:order 0 .
+
+:DataComponentWrapper_c871c44ac631479b8ecc239b4216d9a8 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_ab6b4d8af6fb40d69856313613dcf900 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasContributor> ;
+    vo:order 6 .
+
+:DataComponentWrapper_ec81cfbe45e2460db2d8fd2b22be4218 a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_3852d9c2316e40a3bdf0595e58cb2325 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasProject> ;
+    vo:order 8 .
+
+:DataComponentWrapper_ed27d1f9ac0d4b32bf0452445c9d1a8e a vo:DataComponentWrapper,
+        owl:NamedIndividual ;
+    vo:dataComponent :DataComponent_b7b692c0894140e387c4ab57c5d3dd00 ;
+    vo:dataComponentPredicate <https://w3id.org/dcso/ns/core#hasFunding> ;
+    vo:order 2 .
+
+:DataComponent_20f24db4838a4c09828cb71f48e83e89 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_66f62470ce0344bebeb79e90efc0dfbd ;
+    vo:dataComponentName "Cost" ;
+    dct:created "2024-10-15T14:26:35.590578" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_3852d9c2316e40a3bdf0595e58cb2325 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_0309f314c22241708fda6b14fed321e9 ;
+    vo:dataComponentName "Project" ;
+    dct:created "2024-10-15T14:26:35.588992" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_59ae5e9a7eda4789ad483bffbdf98337 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_2228d2dd25f54c87b6fbd0ba8ef78ab3 ;
+    vo:dataComponentName "GrantId" ;
+    dct:created "2024-10-15T14:26:35.589832" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_6231f70639cf442ab0e4e2597159113c a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_76e1112ec9f248ee8fd555118d52a077 ;
+    vo:dataComponentName "License" ;
+    dct:created "2024-10-15T14:26:35.593253" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_6941c71450794234a1693af45263ac89 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_54adfe47686a42dab33e812d9c3f7f69 ;
+    vo:dataComponentName "FunderId" ;
+    dct:created "2024-10-15T14:26:35.589581" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_721bae3e6858423c9bcc79b339258f53 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_87160f993260447d88b23218961a79a9 ;
+    vo:dataComponentName "Host" ;
+    dct:created "2024-10-15T14:26:35.592475" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_739a4638c30f494b8f758efda0cc2f16 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_67970ba629774e2a959045477983ce7d ;
+    vo:dataComponentName "Metadata" ;
+    dct:created "2024-10-15T14:26:35.591518" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_84f9b8f4d12b4a6f81b1f928f85c6078 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_841f809e298b473c8efcc7c9827faefa ;
+    vo:dataComponentName "Contact" ;
+    dct:created "2024-10-15T14:26:35.590090" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_ab6b4d8af6fb40d69856313613dcf900 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_146c79e42cb1470d9f88f76362ddb956 ;
+    vo:dataComponentName "Contributor" ;
+    dct:created "2024-10-15T14:26:35.588129" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_b7b692c0894140e387c4ab57c5d3dd00 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_24129eb11f804c609ce868857fe77d90 ;
+    vo:dataComponentName "Funding" ;
+    dct:created "2024-10-15T14:26:35.589385" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_c5ec1c6b29384cf5bb88ea9cf8dad500 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_af0caf22481d4bde8a34aaa061c1dbc4 ;
+    vo:dataComponentName "ContributorId" ;
+    dct:created "2024-10-15T14:26:35.588437" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_c6dd4c3ec5cf4f2a84fe4b2ad6dbbac8 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_ee1b0f776d834cc4b1edcff7cf71e777 ;
+    vo:dataComponentName "DMPId" ;
+    dct:created "2024-10-15T14:26:35.588737" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_cc49771474384af1b6f8676b17502e96 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_020b828610b84d588dae22e79df64c87 ;
+    vo:dataComponentName "Distribution" ;
+    dct:created "2024-10-15T14:26:35.591906" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_d5ccf0164b3c477ca5190ce4a08c830f a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_edf0c1ecba9543e0a7abcb86cabe2380 ;
+    vo:dataComponentName "TechnicalResource" ;
+    dct:created "2024-10-15T14:26:35.593560" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_d74c306cb271414786ccf954f8ab4214 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_94cea638263b49afb6ec5b7c78e953c1 ;
+    vo:dataComponentName "MetadataStandardId" ;
+    dct:created "2024-10-15T14:26:35.591634" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_e53938882bb2444e8baa504d171f78b7 a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_bf619e1178d74574b22ac6d0e249a4c4 ;
+    vo:dataComponentName "Dataset" ;
+    dct:created "2024-10-15T14:26:35.590828" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_ec8b0abd4bc34cd3b0f3d35c1fc98b8e a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_e973fc037ba245c69adffdf87a7ab0b5 ;
+    vo:dataComponentName "DatasetId" ;
+    dct:created "2024-10-15T14:26:35.593739" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:DataComponent_fa928878116b48d2a3499e0c8262d3fb a vo:DataComponent,
+        rdfs:Resource,
+        owl:NamedIndividual ;
+    vo:dataComponentContent :Container_61d51d7f7a6546b2b45ff17517b05a45 ;
+    vo:dataComponentName "ContactId" ;
+    dct:created "2024-10-15T14:26:35.590326" ;
+    dct:license <https://www.apache.org/licenses/LICENSE-2.0> .
+
+:TextContent_0378da8652404d7aa04d2e88577048fd a vo:TextContent,
+        owl:NamedIndividual ;
+    vo:textContentValue "Start date: " .
+
+:TextContent_2de85843397d4386a06bdcbffb0b5880 a vo:TextContent,
+        owl:NamedIndividual ;
+    vo:textContentValue "Available until: " .
+
+:TextContent_eba22ec1652b4ac2afb0b63f1a175c02 a vo:TextContent,
+        owl:NamedIndividual ;
+    vo:textContentValue "End: " .
+
+:TextContent_f3bb844bca78478f9b54fdef061bf74a a vo:TextContent,
+        owl:NamedIndividual ;
+    vo:textContentValue "Start: " .
+
+:TextContent_fb62a602af37454e966e18859ccbe51c a vo:TextContent,
+        owl:NamedIndividual ;
+    vo:textContentValue "Issued: " .
+

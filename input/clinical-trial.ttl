@@ -1,0 +1,57 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ocre: <http://purl.org/net/OCRe/OCRe.owl#> .
+
+# Defining a clinical trial
+<http://example.org/clinical_trial_001>
+    rdf:type               ocre:ClinicalTrial ;
+    rdfs:label             "A Randomized Control Trial for Drug X" ;
+    ocre:hasObjective      "To assess the efficacy of Drug X in treating condition Y" ;
+    ocre:hasPrimaryOutcome "Reduction in symptom severity" ;
+    ocre:hasStudyDesign    ocre:RandomizedControlTrial ;
+    ocre:hasPhase          ocre:Phase3 .
+
+# Defining participants
+<http://example.org/participant_001>
+    rdf:type          ocre:TrialParticipant ;
+    ocre:hasAge       "45"^^xsd:integer ;
+    ocre:hasGender    "Female" ;
+    ocre:hasCondition <http://example.org/condition_Y> .
+
+# Defining interventions
+<http://example.org/intervention_001>
+    rdf:type                 ocre:Intervention ;
+    ocre:hasInterventionType ocre:Drug ;
+    rdfs:label               "Drug X" ;
+    ocre:hasDosage           "100mg" .
+
+# Defining outcomes
+<http://example.org/outcome_001>
+    rdf:type           ocre:Outcome ;
+    rdfs:label         "Symptom Severity Score" ;
+    ocre:measuredUsing <http://example.org/symptom_severity_scale> .
+
+# Study design details
+ocre:RandomizedControlTrial
+    rdf:type        owl:Class ;
+    rdfs:label      "Randomized Control Trial" ;
+    rdfs:subClassOf ocre:StudyDesign .
+
+ocre:Phase3
+    rdf:type        owl:Class ;
+    rdfs:label      "Phase 3" ;
+    rdfs:subClassOf ocre:StudyPhase .
+
+# Define Condition Y
+<http://example.org/condition_Y>
+    rdf:type   ocre:Condition ;
+    rdfs:label "Condition Y" .
+
+# Outcome measurement
+<http://example.org/symptom_severity_scale>
+    rdf:type                ocre:MeasurementInstrument ;
+    rdfs:label              "Symptom Severity Scale" ;
+    ocre:hasMeasurementUnit "points" .
+
